@@ -50,7 +50,7 @@ input,
 button{
   outline: none;
 }
-.task-manager_button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -59,7 +59,7 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task-manager_button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -73,7 +73,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.task_input{
+.task-item__input{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -85,7 +85,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task_input:focus {
+.task-item__input:focus {
   color: #333;
 }
 
@@ -112,7 +112,7 @@ button{
   vertical-align: middle;
 }
 
-.task-item > .tast-checkbox {
+.task-item > .task-item__checkbox {
   margin: 0 10px;
 }
 .task-item > label {
@@ -121,7 +121,7 @@ button{
   font-size: 18px;
   width: 226px;
 }
-.task-item > .task_input {
+.task-item > .task-item__input {
   width: 226px;
 }
 .delete .delete__img {
@@ -134,21 +134,21 @@ button{
 }
 
 /* Completed */
-#completed-tasks .task-label {
+#completed-tasks .task-item__text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-item .task_input {
+.task-item .task-item__input {
   display: none;
 }
 
-.task-edit .task_input {
+.task-edit .task-item__input {
   display: inline-block;
   width: 224px;
 }
 
-.task-edit .task-label {
+.task-edit .task-item__text {
   display: none;
 }
