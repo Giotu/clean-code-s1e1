@@ -35,14 +35,14 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .task-manager_button {
   background: none;
@@ -135,14 +135,14 @@ input,button{
 
 /* Edit Task */
 .task-item .task_input {
-  display:none
+  display: none
 }
 
 .task-edit .task_input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-edit .task-label {
-  display:none;
+  display: none;
 }
